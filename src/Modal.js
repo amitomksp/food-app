@@ -24,7 +24,7 @@ const OVERLAY_STYLES = {
 
 export default function Modal({ children, onClose }) {
 
-  return ReactDom.createPortal(
+  return ReactDom.createPortal(   //ceate protal is used to create another div in index.html
     <>
       <div style={OVERLAY_STYLES} />
       <div style={MODAL_STYLES}>

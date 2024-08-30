@@ -5,7 +5,7 @@ const User = require('../models/schema')
 const jwt = require('jsonwebtoken')
 const bcrypt = require('bcryptjs');
 
-const jwtSecret = "MyNameIsEndToEndYouTubeChannelisAnish";
+const jwtSecret = "MyNameIsAmitkumar";
 
 router.post('/createuser', async (req, res) => {
 

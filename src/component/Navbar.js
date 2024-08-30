@@ -32,7 +32,7 @@ import Cart from '../screen/Cart';
             </li>
             {(localStorage.getItem('authToken')) ?
               <li className="nav-item active">
-                <Link className="nav-link active fs-5" aria-current='page' to="/">My Order </Link>
+                <Link className="nav-link active fs-5" aria-current='page' to="/myOrder">My Order </Link>
               </li> : ""
             }
           </ul>
@@ -46,7 +46,7 @@ import Cart from '../screen/Cart';
             <div>
               <div className="btn bg-white text-success mx-1" onClick={()=>{setCartView(true)}}>
                 My Cart{" "}
-                <Badge pill bg="Danger">{data.length}</Badge>
+                <Badge pill bg="Danger" >{data.length}</Badge>
               </div>
               {cartView ? <Modal onClose={() => setCartView(false)}><Cart></Cart></Modal> : ""}
 

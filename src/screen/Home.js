@@ -50,20 +50,20 @@ function Home() {
                     </div>
                     <div className="carousel-caption d-none d-md-block" style={{ "zIndex": "10" }}>
                         <div className="d-flex justify-content-center">
-                            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" value={search} onChange={(e) => { setSearch(e.target.value) }} />
+                            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"  value={search} onChange={(e) => { setSearch(e.target.value) }} />
                             {/* <button className="btn btn-outline-success" type="submit">Search</button> */}
                         </div>
 
                     </div>
                     <div className="carousel-inner" id='carousel'>
                         <div className="carousel-item active">
-                            <img src="https://source.unsplash.com/random/900×700/?burger" style={{ "filter": "brightness(30%" }} className="d-block w-100" alt="..." />
+                            <img src="https://bitemeup.com/wp-content/uploads/2020/04/82877b520bddd7d663ce747108955afc-1920x1352.jpg" style={{ "height":"400px","filter": "brightness(40%" }} className="d-block w-100" alt="..." />
                         </div>
                         <div className="carousel-item">
-                            <img src="https://source.unsplash.com/random/900×700/?pastry" style={{ "filter": "brightness(30%" }} className="d-block w-100" alt="..." />
+                            <img src="https://th.bing.com/th/id/OIP.VKMkZooxYIWQ8I4At_C6UQHaFP?rs=1&pid=ImgDetMain" style={{ "height":"400px","filter": "brightness(40%" }} className="d-block w-100" alt="..." />
                         </div>
                         <div className="carousel-item">
-                            <img src="https://source.unsplash.com/random/900×700/?barbeque" style={{ "filter": "brightness(30%" }} className="d-block w-100" alt="..." />
+                            <img src="https://th.bing.com/th/id/OIP.F8xDmyzvikXoyuZQORIOxgHaDt?rs=1&pid=ImgDetMain" style={{"height":"400px", "filter": "brightness(40%" }} className="d-block w-100" alt="..." />
                         </div>
                     </div>
                     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
