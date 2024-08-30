@@ -10,7 +10,7 @@ in another terminal
 got to backend folder by typing cd backend/
 after that run -npm run dev for running our backend
 
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:5000](http://localhost:5000) to view it in your browser.
 
 
 
